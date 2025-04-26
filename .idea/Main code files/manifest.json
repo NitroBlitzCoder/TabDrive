@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "TabDrive",
+  "version": "1.0",
+  "description": "Save and restore all open tabs before closing Chrome.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "sessions"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "tabRive.png",
+      "48": "tabRive.png",
+      "128": "tabRive.png"
+    }
+  },
+  "icons": {
+    "16": "tabRive.png",
+    "48": "tabRive.png",
+    "128": "tabRive.png"
+  }
+}
