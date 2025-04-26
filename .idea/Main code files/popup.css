@@ -3,12 +3,37 @@ body {
     margin: 0;
     padding: 15px;
     width: 300px;
+    background: #3f3f3f;
+    color: whitesmoke;
+    animation-name: br;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes br {
+    from{background: #3f3f3f}
+    to{background: dimgrey}
 
 }
+@keyframes bu {
+    0%{scale: 100%}
+    50%{scale: 120%}
+    100%{scale: 100%}
+}
 button {
+    background-color: darkred;
     width: 100px;
     margin-top: 8px;
     padding: 6px;
+    color: #ffec30;
+
+}
+button:hover {
+    background-color: #ffec30;
+    color: darkred;
+    animation-name: bu;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 #status {
     margin-top: 12px;
@@ -20,4 +45,5 @@ hr {
 }
 label {
     font-size: 0.9em;
+    color: whitesmoke;
 }
