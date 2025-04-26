@@ -32,7 +32,7 @@ button:hover {
     background-color: #ffec30;
     color: darkred;
     animation-name: bu;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 #status {
